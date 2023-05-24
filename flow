@@ -1,0 +1,7 @@
+on : push
+jobs :
+  first-job:
+   runs-on : ubuntu
+   steps :
+     - runs : node --version
+     - runs : npm --version
