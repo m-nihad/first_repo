@@ -3,9 +3,9 @@ on : push
 jobs :
   first-job:
    runs-on : ubuntu-latest
-   steps :
+    steps :
      - uses: actions/setup-node@v2
-      with:
+       with:
           node-version: 14.20.1
      - runs : node --version
      - runs : npm --version
